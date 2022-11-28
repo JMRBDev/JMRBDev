@@ -1,0 +1,27 @@
+name: RSS Feed to README.md
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 15 * * *'
+
+jobs:
+  pull_blog_rss:
+    name: Update with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Get RSS Feed
+        uses: ./.github/workflows/actions/rss-to-readme
+        with:
+          feed_url: https://www.jmrb.dev/rss.xml
+          count: 6
+      - name: Commit file changes
+        run: |
+            git config --global user.name 'JMRBDev'
+            git config --global user.email 'josemrb99@gmail.com'
+            git add .
+            git diff --quiet --cached || git commit -m "Update README"    
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

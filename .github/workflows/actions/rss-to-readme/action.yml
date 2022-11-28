@@ -1,0 +1,22 @@
+name: 'RSS Feed to README.md'
+description: 'RSS XML Feed to Github README.md'
+author: 'JMRBDev'
+inputs:
+  feed_url:
+    description: 'The URL of the RSS feed'
+    required: true
+    default: ''
+  count:
+    description: 'Number of posts to display'
+    default: '6'
+    required: false
+  readme_path:
+    description: 'Path to the readme file'
+    required: false
+    default: 'README.md'
+runs:
+  using: 'node16'
+  main: '../../../../dist/index.js'
+branding:
+  icon: 'archive'
+  color: blue
