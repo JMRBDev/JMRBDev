@@ -56,7 +56,7 @@
 <!-- BLOGPOSTS:END -->
 
 <p align="center">
-  <a href="https://www.jmrb.dev/blog" target="_blank" style="color: #f0fdfa; background: #0d9488; border-radius: 8px; padding: 12px; font-weight: bold;">
-    Ver todos
-  </a>
+    <a href="https://www.jmrb.dev/blog" target="_blank">
+        <img src="./assets/images/see-more.png" width="30%" alt="Enlace que redirige a jmrb.dev/blog" />
+    </a>
 </p>
