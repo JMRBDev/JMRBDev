@@ -12,11 +12,13 @@ export const formatToMarkdown = (feed, num) => {
       md += `
 <a href="${item.link}" target="_blank">
   <p align="center">
-    <img width='50%' src='${item.enclosure.url}' alt='Thumbnail for post called ${item.title}' />
+    <img width='50%' src='${item.enclosure.url}' alt='Thumbnail for post called ${item.title}' style="border-radius: 18px;" />
   </p>
-  <h2 align="center">${item.title}</h2>
-  <p align="center">${item.description}</p>
+  <h3 align="center">${item.title}</h3>
+  <p align="center" style="font-size: 11px;">${item.content}</p>
 </a>
+
+<hr />
 `;
     }
   }

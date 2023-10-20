@@ -6,7 +6,7 @@ let parser = new Parser();
 
 const getRSSFeed = async (feedURL) => {
   let feed = await parser.parseURL(feedURL);
-  return feed.items;
+  return feed.items.sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
 };
 
 const main = async () => {
