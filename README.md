@@ -19,32 +19,39 @@
 ### Los posts más recientes de mi blog, [jmrb.dev](https://www.jmrb.dev)
 <!-- BLOGPOSTS:START -->
 
-<a href="https://www.jmrb.dev/blog/mi-setup-como-desarrollador-web" target="_blank">
+<a href="https://www.jmrb.dev/blog/hola-mundo/" target="_blank">
   <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/assets/_posts/mi-setup-como-desarrollador-web/thumbnail.jpg' alt='Thumbnail for post called Mi Setup como Desarrollador Web' />
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.bf1d7789.webp' alt='Thumbnail for post called Hola mundo 👋🌍' />
+  </p>
+  <p align="center">Hola mundo 👋🌍</p>
+</a>
+
+<a href="https://www.jmrb.dev/blog/mi-setup-como-desarrollador-web/" target="_blank">
+  <p align="center">
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.453ec743.webp' alt='Thumbnail for post called Mi Setup como Desarrollador Web' />
   </p>
   <p align="center">Mi Setup como Desarrollador Web</p>
 </a>
 
-<a href="https://www.jmrb.dev/blog/teclados-mecanicos-101" target="_blank">
+<a href="https://www.jmrb.dev/blog/migrando-mi-web-de-nextjs-a-astro/" target="_blank">
   <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/assets/_posts/teclados-mecanicos-101/thumbnail.jpg' alt='Thumbnail for post called Teclados mecánicos 101' />
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.1ea85b8b.webp' alt='Thumbnail for post called Migrando mi web de Next.js a Astro ⚡️🚀' />
   </p>
-  <p align="center">Teclados mecánicos 101</p>
+  <p align="center">Migrando mi web de Next.js a Astro ⚡️🚀</p>
 </a>
 
-<a href="https://www.jmrb.dev/blog/que-necesitas-para-aprender-a-programar" target="_blank">
+<a href="https://www.jmrb.dev/blog/que-necesitas-para-aprender-a-programar/" target="_blank">
   <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/assets/_posts/que-necesitas-para-aprender-a-programar/thumbnail.jpg' alt='Thumbnail for post called ¿Qué necesitas para aprender a programar?' />
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.07fce6c7.webp' alt='Thumbnail for post called ¿Qué necesitas para aprender a programar?' />
   </p>
   <p align="center">¿Qué necesitas para aprender a programar?</p>
 </a>
 
-<a href="https://www.jmrb.dev/blog/hola-mundo" target="_blank">
+<a href="https://www.jmrb.dev/blog/teclados-mecanicos-101/" target="_blank">
   <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/assets/_posts/hola-mundo/thumbnail.jpg' alt='Thumbnail for post called Hola mundo 👋🌍' />
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.eadc4f62.webp' alt='Thumbnail for post called Teclados mecánicos 101' />
   </p>
-  <p align="center">Hola mundo 👋🌍</p>
+  <p align="center">Teclados mecánicos 101</p>
 </a>
 <!-- BLOGPOSTS:END -->
 
