@@ -1,7 +1,7 @@
 <p align="center"><img src="https://www.jmrb.dev/icon-192.png" width="80" /></p>
 <h2 align="center">¡Hola 👋! Me llamo Jose Rosendo</h1>
 
-<img src='https://www.jmrb.dev/_astro/thumbnail.bf1d7789_2eiI9N.webp' alt='Banner del blog' style="border-radius: 18px;" />
+<img src='https://www.jmrb.dev/_astro/thumbnail.bf1d7789.webp' alt='Banner del blog' style="border-radius: 18px;" />
 
 <p align="center">
   <a href="https://twitter.com/joserosendo99" target="_blank">
