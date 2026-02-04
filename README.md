@@ -91,14 +91,6 @@
 
 <!-- BLOGPOSTS:END -->
 
-<div align="center">
-  <a href="https://www.jmrb.dev/blog" target="_blank">
-    <img src="./assets/images/see-more.png" alt="Ver más en jmrb.dev/blog" style="width: 100%; max-width: 220px; min-width: 160px; display: block; margin: 0 auto;" />
-  </a>
-</div>
-
-<br />
-
 ## Contacto
 
 - Web: https://www.jmrb.dev
