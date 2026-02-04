@@ -34,61 +34,40 @@
 
 <!-- BLOGPOSTS:START -->
 
-<table align="center" style="border-collapse: separate; border-spacing: 16px; border: 0;">
-  <tr>
-    <td align="center" style="border: 0;">
-      <a href="https://www.jmrb.dev/blog/hola-mundo/" target="_blank">
-        <img src="https://www.jmrb.dev/_astro/thumbnail.MDQQtw69.webp" alt="Thumbnail for post called Hola mundo 👋🌍" style="width: 100%; max-width: 320px; min-width: 200px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; display: block; margin: 0 auto;" />
-        <br />
-        Hola mundo 👋🌍
-        <br />
-        &nbsp;
-      </a>
-    </td>
-    <td align="center" style="border: 0;">
-      <a href="https://www.jmrb.dev/blog/mi-setup-como-desarrollador-web/" target="_blank">
-        <img src="https://www.jmrb.dev/_astro/thumbnail.FCA3nV1S.webp" alt="Thumbnail for post called Mi Setup como Desarrollador Web" style="width: 100%; max-width: 320px; min-width: 200px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; display: block; margin: 0 auto;" />
-        <br />
-        Mi Setup como
-        <br />
-        Desarrollador Web
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="border: 0;">
-      <a href="https://www.jmrb.dev/blog/migrando-mi-web-de-nextjs-a-astro/" target="_blank">
-        <img src="https://www.jmrb.dev/_astro/thumbnail.PZ98Wu4J.webp" alt="Thumbnail for post called Migrando mi web de Next.js a Astro ⚡️🚀" style="width: 100%; max-width: 320px; min-width: 200px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; display: block; margin: 0 auto;" />
-        <br />
-        Migrando mi web de
-        <br />
-        Next.js a Astro… ⚡️🚀
-      </a>
-    </td>
-    <td align="center" style="border: 0;">
-      <a href="https://www.jmrb.dev/blog/que-necesitas-para-aprender-a-programar/" target="_blank">
-        <img src="https://www.jmrb.dev/_astro/thumbnail.BaGjfMw0.webp" alt="Thumbnail for post called ¿Qué necesitas para aprender a programar?" style="width: 100%; max-width: 320px; min-width: 200px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; display: block; margin: 0 auto;" />
-        <br />
-        ¿Qué necesitas para
-        <br />
-        aprender a programar…
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="border: 0;">
-      <a href="https://www.jmrb.dev/blog/teclados-mecanicos-101/" target="_blank">
-        <img src="https://www.jmrb.dev/_astro/thumbnail.EHtOXTc4.webp" alt="Thumbnail for post called Teclados mecánicos 101" style="width: 100%; max-width: 320px; min-width: 200px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; display: block; margin: 0 auto;" />
-        <br />
-        Teclados mecánicos 101
-        <br />
-        &nbsp;
-      </a>
-    </td>
-    <td align="center" style="border: 0;"></td>
-  </tr>
-</table>
+<a href="https://www.jmrb.dev/blog/hola-mundo/" target="_blank">
+  <p align="center">
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.MDQQtw69.webp' alt='Thumbnail for post called Hola mundo 👋🌍' />
+  </p>
+  <p align="center">Hola mundo 👋🌍</p>
+</a>
 
+<a href="https://www.jmrb.dev/blog/mi-setup-como-desarrollador-web/" target="_blank">
+  <p align="center">
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.FCA3nV1S.webp' alt='Thumbnail for post called Mi Setup como Desarrollador Web' />
+  </p>
+  <p align="center">Mi Setup como Desarrollador Web</p>
+</a>
+
+<a href="https://www.jmrb.dev/blog/migrando-mi-web-de-nextjs-a-astro/" target="_blank">
+  <p align="center">
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.PZ98Wu4J.webp' alt='Thumbnail for post called Migrando mi web de Next.js a Astro ⚡️🚀' />
+  </p>
+  <p align="center">Migrando mi web de Next.js a Astro ⚡️🚀</p>
+</a>
+
+<a href="https://www.jmrb.dev/blog/que-necesitas-para-aprender-a-programar/" target="_blank">
+  <p align="center">
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.BaGjfMw0.webp' alt='Thumbnail for post called ¿Qué necesitas para aprender a programar?' />
+  </p>
+  <p align="center">¿Qué necesitas para aprender a programar?</p>
+</a>
+
+<a href="https://www.jmrb.dev/blog/teclados-mecanicos-101/" target="_blank">
+  <p align="center">
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.EHtOXTc4.webp' alt='Thumbnail for post called Teclados mecánicos 101' />
+  </p>
+  <p align="center">Teclados mecánicos 101</p>
+</a>
 <!-- BLOGPOSTS:END -->
 
 ## Contacto
