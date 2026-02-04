@@ -1,22 +1,35 @@
-<p align="center"><img src="https://www.jmrb.dev/icon-192.png" width="80" /></p>
-<h2 align="center">¡Hola 👋! Me llamo Jose Rosendo</h1>
+<div align="center">
+  <img src="https://www.jmrb.dev/icon-192.png" width="88" alt="JMRBDev Logo" />
+  <h1>Jose Rosendo</h1>
+  <p>Desarrollador de software enfocado en crear experiencias web claras, rápidas y modernas.</p>
 
-<img src='https://www.jmrb.dev/_astro/thumbnail.bf1d7789.webp' alt='Banner del blog' style="border-radius: 18px;" />
+  <p>
+    <a href="https://www.jmrb.dev">Web</a> ·
+    <a href="https://www.jmrb.dev/blog">Blog</a> ·
+    <a href="https://github.com/JMRBDev">GitHub</a> ·
+    <a href="https://twitter.com/joserosendo99">X (Twitter)</a>
+  </p>
 
-<p align="center">
-  <a href="https://twitter.com/joserosendo99" target="_blank">
-    <img alt="Twitter: joserosendo99" src="https://img.shields.io/twitter/follow/joserosendo99.svg?style=social" />
-  </a>
-  <a href="https://github.com/JMRBDev" target="_blank">
-    <img alt="Github: JMRBDev" src="https://img.shields.io/github/followers/JMRBDev?style=social" />
-  </a>
-</p>
+  <p>
+    <img alt="GitHub Followers" src="https://img.shields.io/github/followers/JMRBDev?style=social" />
+    <img alt="X Followers" src="https://img.shields.io/twitter/follow/joserosendo99?style=social" />
+  </p>
+</div>
 
-<p align="center">Soy <strong>desarrollador de software 🧑🏻‍💻</strong> y me dedico a la <strong>creación de aplicaciones web</strong> 🖥️.</p>
+<br />
 
-<hr />
+<img src="https://www.jmrb.dev/_astro/thumbnail.MDQQtw69.webp" alt="Banner del blog" style="border-radius: 16px;" />
 
-<h2 align="center">Los posts más recientes de mi blog, <a href="https://www.jmrb.dev" target="_blank">jmrb.dev</a></h2>
+<br />
+<br />
+
+## Sobre mí
+
+- Desarrollo aplicaciones web y productos digitales con enfoque en rendimiento y detalle visual.
+- Me gusta compartir aprendizaje y procesos en el blog.
+
+## Blog: posts recientes
+
 <!-- BLOGPOSTS:START -->
 
 <a href="https://www.jmrb.dev/blog/hola-mundo/" target="_blank">
@@ -53,10 +66,19 @@
   </p>
   <p align="center">Teclados mecánicos 101</p>
 </a>
+
 <!-- BLOGPOSTS:END -->
 
-<p align="center">
-    <a href="https://www.jmrb.dev/blog" target="_blank">
-        <img src="./assets/images/see-more.png" width="30%" alt="Enlace que redirige a jmrb.dev/blog" />
-    </a>
-</p>
+<div align="center">
+  <a href="https://www.jmrb.dev/blog" target="_blank">
+    <img src="./assets/images/see-more.png" width="28%" alt="Ver más en jmrb.dev/blog" />
+  </a>
+</div>
+
+<br />
+
+## Contacto
+
+- Web: https://www.jmrb.dev
+- GitHub: https://github.com/JMRBDev
+- X (Twitter): https://twitter.com/joserosendo99
