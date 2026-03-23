@@ -41,6 +41,13 @@
   <p align="center">Hola mundo 👋🌍</p>
 </a>
 
+<a href="https://www.jmrb.dev/blog/ia-para-desarrolladores-de-software/" target="_blank">
+  <p align="center">
+    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.gpqZ8hKe.webp' alt='Thumbnail for post called IA para desarrolladores de software' />
+  </p>
+  <p align="center">IA para desarrolladores de software</p>
+</a>
+
 <a href="https://www.jmrb.dev/blog/mi-setup-como-desarrollador-web/" target="_blank">
   <p align="center">
     <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.FCA3nV1S.webp' alt='Thumbnail for post called Mi Setup como Desarrollador Web' />
