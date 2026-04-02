@@ -17,7 +17,7 @@ const main = async () => {
 
     // For running locally
     // const count = 6;
-    // const feedURL = "https://www.jmrb.dev/rss.xml";
+    // const feedURL = "https://www.joserosendo.dev/rss.xml";
     // const readmePath = "README.md";
 
     const feed = await getRSSFeed(feedURL);

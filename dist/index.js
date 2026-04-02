@@ -10269,11 +10269,11 @@ const formatToMarkdown = (feed, num) => {
     if (item) {
       md += `
 <a href="${item.link}" target="_blank">
-  <p align="center">
-    <img width='50%' src='${item.enclosure.url}' alt='Thumbnail for post called ${item.title}' />
-  </p>
-  <p align="center">${item.title}</p>
+  <p>${item.title}</p>
+  <p style="font-size: 11px;">${item.description}</p>
 </a>
+
+<hr />
 `;
     }
   }
@@ -10310,19 +10310,19 @@ let parser = new rss_parser();
 
 const getRSSFeed = async (feedURL) => {
   let feed = await parser.parseURL(feedURL);
-  return feed.items;
+  return feed.items.sort((a, b) => new Date(b.isoDate) - new Date(a.isoDate));
 };
 
 const main = async () => {
   try {
-    const count = Number.parseInt(core.getInput("count"));
-    const feedURL = core.getInput("feed_url");
-    const readmePath = core.getInput("readme_path");
+    // const count = Number.parseInt(core.getInput("count"));
+    // const feedURL = core.getInput("feed_url");
+    // const readmePath = core.getInput("readme_path");
 
     // For running locally
-    // const count = 6;
-    // const feedURL = "https://portfolio-3ry44yoed-jmrbdev.vercel.app/rss.xml";
-    // const readmePath = "README.md";
+    const count = 6;
+    const feedURL = "https://www.joserosendo.dev/rss.xml";
+    const readmePath = "README.md";
 
     const feed = await getRSSFeed(feedURL);
 
