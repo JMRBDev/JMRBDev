@@ -1,27 +1,40 @@
-name: RSS Feed to README.md
+name: Update README Blog Posts
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 15 * * *"
 
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme-blog-posts
+  cancel-in-progress: true
+
 jobs:
-  pull_blog_rss:
-    name: Update with latest blog posts
+  update-blog-posts:
+    name: Update latest blog posts
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Get RSS Feed
-        uses: ./.github/workflows/actions/rss-to-readme
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Refresh README posts
+        uses: ./.github/actions/rss-to-readme
         with:
           feed_url: https://www.joserosendo.dev/rss.xml
           count: 6
-      - name: Commit file changes
+
+      - name: Commit README changes
         run: |
-          git config --global user.name 'JMRBDev'
-          git config --global user.email 'josemrb99@gmail.com'
-          git add .
-          git diff --quiet --cached || git commit -m "Update README"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          if git diff --quiet README.md; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README blog posts"
+          git push

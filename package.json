@@ -1,18 +1,25 @@
 {
-    "name": "rss-to-readme",
-    "version": "0.1.0",
-    "description": "RSS XML Feed to Github README.md",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-        "build": "ncc build index.js",
-        "start": "node index.js"
-    },
-    "author": "JMRBDev",
-    "license": "MIT",
-    "dependencies": {
-        "@actions/core": "1.10.0",
-        "@vercel/ncc": "0.34.0",
-        "rss-parser": "3.12.0"
-    }
+  "name": "rss-to-readme",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Update a README section from an RSS feed",
+  "type": "module",
+  "packageManager": "npm@11.8.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "ncc build index.js -o dist",
+    "test": "node --test",
+    "check": "npm run test && npm run build"
+  },
+  "author": "JMRBDev",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "3.0.0",
+    "rss-parser": "3.13.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "0.38.4"
+  }
 }

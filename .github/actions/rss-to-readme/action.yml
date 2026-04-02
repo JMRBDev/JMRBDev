@@ -1,0 +1,22 @@
+name: RSS Feed to README.md
+description: Update a README section from an RSS feed
+author: JMRBDev
+inputs:
+  feed_url:
+    description: The URL of the RSS feed
+    required: true
+    default: https://www.joserosendo.dev/rss.xml
+  count:
+    description: Number of posts to display
+    required: false
+    default: "6"
+  readme_path:
+    description: Path to the README file
+    required: false
+    default: README.md
+runs:
+  using: node24
+  main: ../../../dist/index.js
+branding:
+  icon: archive
+  color: blue
