@@ -10269,8 +10269,8 @@ const formatToMarkdown = (feed, num) => {
     if (item) {
       md += `
 <a href="${item.link}" target="_blank">
-  <p>${item.title}</p>
-  <p style="font-size: 11px;">${item.description}</p>
+  <h3>${item.title}</h3>
+  <p style="font-size: 11px;">${item.content}</p>
 </a>
 
 <hr />
@@ -10315,14 +10315,14 @@ const getRSSFeed = async (feedURL) => {
 
 const main = async () => {
   try {
-    // const count = Number.parseInt(core.getInput("count"));
-    // const feedURL = core.getInput("feed_url");
-    // const readmePath = core.getInput("readme_path");
+    const count = Number.parseInt(core.getInput("count"));
+    const feedURL = core.getInput("feed_url");
+    const readmePath = core.getInput("readme_path");
 
     // For running locally
-    const count = 6;
-    const feedURL = "https://www.joserosendo.dev/rss.xml";
-    const readmePath = "README.md";
+    // const count = 6;
+    // const feedURL = "https://www.joserosendo.dev/rss.xml";
+    // const readmePath = "README.md";
 
     const feed = await getRSSFeed(feedURL);
 
