@@ -1,22 +1,22 @@
-name: 'RSS Feed to README.md'
-description: 'RSS XML Feed to Github README.md'
-author: 'JMRBDev'
+name: "RSS Feed to README.md"
+description: "RSS XML Feed to Github README.md"
+author: "JMRBDev"
 inputs:
   feed_url:
-    description: 'The URL of the RSS feed'
+    description: "The URL of the RSS feed"
     required: true
-    default: ''
+    default: "https://www.joserosendo.dev/rss.xml"
   count:
-    description: 'Number of posts to display'
-    default: '6'
+    description: "Number of posts to display"
+    default: "6"
     required: false
   readme_path:
-    description: 'Path to the readme file'
+    description: "Path to the readme file"
     required: false
-    default: 'README.md'
+    default: "README.md"
 runs:
-  using: 'node16'
-  main: '../../../../dist/index.js'
+  using: "node16"
+  main: "../../../../dist/index.js"
 branding:
-  icon: 'archive'
+  icon: "archive"
   color: blue
