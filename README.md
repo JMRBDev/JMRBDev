@@ -7,7 +7,7 @@
   <p>
     <a href="https://www.joserosendo.dev">Web</a> ·
     <a href="https://github.com/JMRBDev">GitHub</a> ·
-    <a href="https://www.linkedin.com/in/jose-rosendo/">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/jose-rosendo/">LinkedIn</a> ·
     <a href="https://twitter.com/joserosendo99">X (Twitter)</a>
   </p>
 
@@ -21,43 +21,31 @@
 
 <!-- BLOGPOSTS:START -->
 
-<a href="https://www.joserosendo.dev/blog/ai-for-software-developers" target="_blank" rel="noopener noreferrer">
-  <h3>AI for software developers</h3>
-  <p style="font-size: 11px;">A practical guide to start coding with AI: what tools exist, how they fit together, and what to try first.</p>
-</a>
+<h3><a href="https://www.joserosendo.dev/blog/ai-for-software-developers">AI for software developers</a></h3>
+<p>A practical guide to start coding with AI: what tools exist, how they fit together, and what to try first.</p>
 
 <hr />
 
-<a href="https://www.joserosendo.dev/blog/migrating-my-website-from-nextjs-to-astro" target="_blank" rel="noopener noreferrer">
-  <h3>Migrating my website from Next.js to Astro</h3>
-  <p style="font-size: 11px;">I love Next.js, but Astro won me over from the moment I tried it for the first time... I'll tell you why.</p>
-</a>
+<h3><a href="https://www.joserosendo.dev/blog/migrating-my-website-from-nextjs-to-astro">Migrating my website from Next.js to Astro</a></h3>
+<p>I love Next.js, but Astro won me over from the moment I tried it for the first time... I'll tell you why.</p>
 
 <hr />
 
-<a href="https://www.joserosendo.dev/blog/my-setup-as-a-web-developer" target="_blank" rel="noopener noreferrer">
-  <h3>My Setup as a Web Developer</h3>
-  <p style="font-size: 11px;">My workstation is the place where I spend the most hours every day. It can't be poorly equipped!</p>
-</a>
+<h3><a href="https://www.joserosendo.dev/blog/my-setup-as-a-web-developer">My Setup as a Web Developer</a></h3>
+<p>My workstation is the place where I spend the most hours every day. It can't be poorly equipped!</p>
 
 <hr />
 
-<a href="https://www.joserosendo.dev/blog/mechanical-keyboards-101" target="_blank" rel="noopener noreferrer">
-  <h3>Mechanical Keyboards 101</h3>
-  <p style="font-size: 11px;">The guide you needed to understand custom mechanical keyboards</p>
-</a>
+<h3><a href="https://www.joserosendo.dev/blog/mechanical-keyboards-101">Mechanical Keyboards 101</a></h3>
+<p>The guide you needed to understand custom mechanical keyboards</p>
 
 <hr />
 
-<a href="https://www.joserosendo.dev/blog/what-you-need-to-learn-to-code" target="_blank" rel="noopener noreferrer">
-  <h3>What do you need to learn programming?</h3>
-  <p style="font-size: 11px;">Programming is a fundamental part of your life. The thing is, you just don't know it yet.</p>
-</a>
+<h3><a href="https://www.joserosendo.dev/blog/what-you-need-to-learn-to-code">What do you need to learn programming?</a></h3>
+<p>Programming is a fundamental part of your life. The thing is, you just don't know it yet.</p>
 
 <hr />
 
-<a href="https://www.joserosendo.dev/blog/hello-world" target="_blank" rel="noopener noreferrer">
-  <h3>Hello World</h3>
-  <p style="font-size: 11px;">I'm Jose Rosendo, and this is my Blog! Let me share why my stories are going to hook you.</p>
-</a>
+<h3><a href="https://www.joserosendo.dev/blog/hello-world">Hello World</a></h3>
+<p>I'm Jose Rosendo, and this is my Blog! Let me share why my stories are going to hook you.</p>
 <!-- BLOGPOSTS:END -->

@@ -101,10 +101,8 @@ export function formatPosts(feedItems, count) {
   return posts
     .map(
       ({ title, link, summary }) =>
-        `<a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
-  <h3>${escapeHtml(title)}</h3>
-  <p style="font-size: 11px;">${escapeHtml(summary)}</p>
-</a>`,
+        `<h3><a href="${escapeHtml(link)}">${escapeHtml(title)}</a></h3>
+<p>${escapeHtml(summary)}</p>`,
     )
     .join("\n\n<hr />\n\n");
 }
