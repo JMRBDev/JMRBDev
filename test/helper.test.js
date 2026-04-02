@@ -25,8 +25,11 @@ test("formatPosts renders the current README HTML layout", () => {
     markup,
     /<h3><a href="https:\/\/example.com\/post\?x=1&amp;y=2">Hello &lt;World&gt;<\/a><\/h3>/,
   );
-  assert.match(markup, /This is a post summary with enough words to render cleanly\./);
-  assert.match(markup, /<hr \/>/);
+  assert.match(
+    markup,
+    /This is a post summary with enough words to render cleanly\./,
+  );
+  assert.match(markup, /<br \/>/);
   assert.match(markup, /Short summary/);
 });
 
