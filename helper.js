@@ -104,7 +104,7 @@ export function formatPosts(feedItems, count) {
         `<h3><a href="${escapeHtml(link)}">${escapeHtml(title)}</a></h3>
 <p>${escapeHtml(summary)}</p>`,
     )
-    .join("\n\n<hr />\n\n");
+    .join("\n\n<br />\n\n");
 }
 
 export function spliceSection(content, replacement) {
