@@ -10,12 +10,10 @@ export const formatToMarkdown = (feed, num) => {
     const item = feed[i];
     if (item) {
       md += `
-<a href="${item.link}" target="_blank">
-  <h3>${item.title}</h3>
-  <p style="font-size: 11px;">${item.content}</p>
-</a>
+### [${item.title}](${item.link})
+${item.content}
 
-<hr />
+<br />
 `;
     }
   }
