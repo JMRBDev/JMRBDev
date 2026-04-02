@@ -11,8 +11,8 @@ export const formatToMarkdown = (feed, num) => {
     if (item) {
       md += `
 <a href="${item.link}" target="_blank">
-  <p>${item.title}</p>
-  <p style="font-size: 11px;">${item.description}</p>
+  <h3>${item.title}</h3>
+  <p style="font-size: 11px;">${item.content}</p>
 </a>
 
 <hr />
