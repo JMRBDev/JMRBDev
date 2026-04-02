@@ -60,6 +60,4 @@
   <p>Hello World</p>
   <p style="font-size: 11px;">I'm Jose Rosendo, and this is my Blog! Let me share why my stories are going to hook you.</p>
 </a>
-
-<hr />
 <!-- BLOGPOSTS:END -->
