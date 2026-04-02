@@ -35721,12 +35721,12 @@ function formatPosts(feedItems, count) {
   return posts
     .map(
       ({ title, link, summary }) =>
-        `
-### [${escapeHtml(title)}](${escapeHtml(link)})
-${escapeHtml(summary)}
-`,
+        `<a href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">
+  <h3>${escapeHtml(title)}</h3>
+  <p style="font-size: 11px;">${escapeHtml(summary)}</p>
+</a>`,
     )
-    .join("\n\n<br />\n\n");
+    .join("\n\n<hr />\n\n");
 }
 
 function spliceSection(content, replacement) {
