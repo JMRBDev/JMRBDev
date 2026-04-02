@@ -11,11 +11,8 @@ export const formatToMarkdown = (feed, num) => {
     if (item) {
       md += `
 <a href="${item.link}" target="_blank">
-  <p align="center">
-    <img width='50%' src='${item.enclosure.url}' alt='Thumbnail for post called ${item.title}' style="border-radius: 18px;" />
-  </p>
-  <h3 align="center">${item.title}</h3>
-  <p align="center" style="font-size: 11px;">${item.content}</p>
+  <p>${item.title}</p>
+  <p style="font-size: 11px;">${item.description}</p>
 </a>
 
 <hr />

@@ -1,12 +1,13 @@
 <div align="center">
-  <img src="https://www.jmrb.dev/icon-192.png" width="88" alt="JMRBDev Logo" />
+  <img src="https://www.joserosendo.dev/icon-192.png" width="88" alt="JMRBDev Logo" />
   <h1>Jose Rosendo</h1>
-  <p>Desarrollador de software que convierte ideas en experiencias web rápidas, claras y memorables.</p>
+  <p>I'm a Software Engineer based in Cádiz, Spain.</p>
+  <p>Building delightful experiences that provide real value to people.</p>
 
   <p>
-    <a href="https://www.jmrb.dev">Web</a> ·
-    <a href="https://www.jmrb.dev/blog">Blog</a> ·
+    <a href="https://www.joserosendo.dev">Web</a> ·
     <a href="https://github.com/JMRBDev">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/jose-rosendo/">LinkedIn</a>
     <a href="https://twitter.com/joserosendo99">X (Twitter)</a>
   </p>
 
@@ -16,69 +17,49 @@
   </p>
 </div>
 
-<br />
-
-<img src="https://www.jmrb.dev/_astro/thumbnail.MDQQtw69.webp" alt="Banner del blog" style="border-radius: 16px;" />
-
-<br />
-<br />
-
-## Sobre mí
-
-- Construyo productos web con foco en rendimiento, diseño y experiencia real de usuario.
-- Comparto aprendizajes, procesos y experimentos en el blog.
-- Actualmente: Desarrollador React en <a href="https://www.disid.com/" target="_blank">DISID</a>.
-- Enfoque: TypeScript, Astro, React y UI limpia.
-
-## Últimas publicaciones del blog
+## Latest blog posts
 
 <!-- BLOGPOSTS:START -->
 
-<a href="https://www.jmrb.dev/blog/hola-mundo/" target="_blank">
-  <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.MDQQtw69.webp' alt='Thumbnail for post called Hola mundo 👋🌍' />
-  </p>
-  <p align="center">Hola mundo 👋🌍</p>
+<a href="https://www.joserosendo.dev/blog/ai-for-software-developers" target="_blank">
+  <p>AI for software developers</p>
+  <p style="font-size: 11px;">undefined</p>
 </a>
 
-<a href="https://www.jmrb.dev/blog/ia-para-desarrolladores-de-software/" target="_blank">
-  <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.gpqZ8hKe.webp' alt='Thumbnail for post called IA para desarrolladores de software' />
-  </p>
-  <p align="center">IA para desarrolladores de software</p>
+<hr />
+
+<a href="https://www.joserosendo.dev/blog/migrating-my-website-from-nextjs-to-astro" target="_blank">
+  <p>Migrating my website from Next.js to Astro</p>
+  <p style="font-size: 11px;">undefined</p>
 </a>
 
-<a href="https://www.jmrb.dev/blog/mi-setup-como-desarrollador-web/" target="_blank">
-  <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.FCA3nV1S.webp' alt='Thumbnail for post called Mi Setup como Desarrollador Web' />
-  </p>
-  <p align="center">Mi Setup como Desarrollador Web</p>
+<hr />
+
+<a href="https://www.joserosendo.dev/blog/my-setup-as-a-web-developer" target="_blank">
+  <p>My Setup as a Web Developer</p>
+  <p style="font-size: 11px;">undefined</p>
 </a>
 
-<a href="https://www.jmrb.dev/blog/migrando-mi-web-de-nextjs-a-astro/" target="_blank">
-  <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.PZ98Wu4J.webp' alt='Thumbnail for post called Migrando mi web de Next.js a Astro ⚡️🚀' />
-  </p>
-  <p align="center">Migrando mi web de Next.js a Astro ⚡️🚀</p>
+<hr />
+
+<a href="https://www.joserosendo.dev/blog/mechanical-keyboards-101" target="_blank">
+  <p>Mechanical Keyboards 101</p>
+  <p style="font-size: 11px;">undefined</p>
 </a>
 
-<a href="https://www.jmrb.dev/blog/que-necesitas-para-aprender-a-programar/" target="_blank">
-  <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.BaGjfMw0.webp' alt='Thumbnail for post called ¿Qué necesitas para aprender a programar?' />
-  </p>
-  <p align="center">¿Qué necesitas para aprender a programar?</p>
+<hr />
+
+<a href="https://www.joserosendo.dev/blog/what-you-need-to-learn-to-code" target="_blank">
+  <p>What do you need to learn programming?</p>
+  <p style="font-size: 11px;">undefined</p>
 </a>
 
-<a href="https://www.jmrb.dev/blog/teclados-mecanicos-101/" target="_blank">
-  <p align="center">
-    <img width='50%' src='https://www.jmrb.dev/_astro/thumbnail.EHtOXTc4.webp' alt='Thumbnail for post called Teclados mecánicos 101' />
-  </p>
-  <p align="center">Teclados mecánicos 101</p>
+<hr />
+
+<a href="https://www.joserosendo.dev/blog/hello-world" target="_blank">
+  <p>Hello World</p>
+  <p style="font-size: 11px;">undefined</p>
 </a>
+
+<hr />
 <!-- BLOGPOSTS:END -->
-
-## Contacto
-
-- Web: https://www.jmrb.dev
-- GitHub: https://github.com/JMRBDev
-- X (Twitter): https://twitter.com/joserosendo99
